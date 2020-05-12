@@ -1,0 +1,30 @@
+{
+    "name": "codexshaper/wp-client-php",
+    "description": "Wordpress API Client for PHP",
+    "keywords": [
+        "wordpress",
+        "php",
+        "sdk",
+        "rest-api",
+        "wp-client-php"
+    ],
+    "type": "library",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Md Abu Ahsan Basir",
+            "email": "maab.career@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Codexshaper\\WP\\": "src/"
+        },
+    },
+    "extra": {},
+}
